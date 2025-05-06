@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .banner-image {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-bottom: 2px solid #ff0077;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-height: 350px;
+  }
+  
+  
+  header {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .logo-img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ff0077;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background-color: #000;
+  }
+  
+  #hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-button {
+    background-color: #ff0077;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  
+  .hero-button:hover {
+    background-color: #ff3399;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  #about {
+    background-color: #222;
+  }
+  
+  #about h2 {
+    color: #ff0077;
+  }
+  
+  #about ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  #about li {
+    margin-bottom: 8px;
+  }
+  
+  #download {
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .download-button {
+    background-color: #00cc66;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 0;
+  }
+  
+  .download-button:hover {
+    background-color: #00e67a;
+  }
+  
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+  }
+  

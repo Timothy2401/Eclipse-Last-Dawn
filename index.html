@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eclipse: Last Dawn – Strategiespiel</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Banner Bild -->
+  <div class="banner-image">
+    <img src="banner.png" alt="Eclipse: Last Dawn Banner">
+  </div>
+
+  <!-- Navigation -->
+  <header>
+    <img src="logo.png" alt="Eclipse: Last Dawn Logo" class="logo-img" />
+    <nav>
+      <ul>
+        <li><a href="#hero">Startseite</a></li>
+        <li><a href="#about">Über das Spiel</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1 data-aos="fade-up">Krieg steht bevor. Die letzte Dämmerung naht.</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Strategie und Taktik in einer post-apokalyptischen Zukunft.</p>
+    <a href="#download" class="hero-button" data-aos="zoom-in" data-aos-delay="400">Jetzt herunterladen</a>
+  </section>
+
+  <!-- Spielbeschreibung -->
+  <section id="about" data-aos="fade-right">
+    <h2>Über das Spiel</h2>
+    <p><strong>Eclipse: Last Dawn</strong> ist ein Echtzeit-Strategiespiel, das in einer düsteren, post-apokalyptischen Zukunft spielt. Nach einem globalen Energiekrieg ist die Welt in Chaos verfallen. Fraktionen kämpfen erbittert um die letzten Ressourcen.</p>
+    <p>Wähle deine Seite: Hochtechnologische Militärregierungen oder widerständige Rebellenarmeen. Baue deine Basis auf, entwickle Technologien, und führe groß angelegte Feldzüge. Alles in einer spannenden Mischung aus taktischer Tiefe und actionreicher Inszenierung.</p>
+    <ul>
+      <li><strong>Real-Time Strategie:</strong> keine Züge, nur Entscheidungen in Echtzeit.</li>
+      <li><strong>Verschiedene Fraktionen:</strong> jede mit eigenen Einheiten und Fähigkeiten.</li>
+      <li><strong>Base Building:</strong> baue und erweitere deine Basis unter feindlichem Druck.</li>
+      <li><strong>Multiplayer:</strong> Kämpfe gegen Spieler weltweit in Ranglisten oder Freundschaftsspielen.</li>
+    </ul>
+  </section>
+
+  <!-- Download -->
+  <section id="download" data-aos="fade-up">
+    <h2>Spiel herunterladen</h2>
+    <p>Hol dir das Spiel jetzt und starte deine Reise.</p>
+    <a href="EclipseLastDawnSetup.exe" class="download-button">Jetzt herunterladen</a>
+    <p>Systemanforderungen: Windows 10, 4GB RAM, 2GB Speicherplatz</p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Kontakt: info@eclipse-last-dawn.com</p>
+    <p>© 2025 Eclipse Studios</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    window.addEventListener("load", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>
